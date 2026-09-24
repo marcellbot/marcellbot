@@ -39,9 +39,10 @@ except ImportError:
 # ============================================================
 # 🔑 KULCSOK
 # ============================================================
-XAI_API_KEY = os.getenv("XAI_API_KEY")
-FACEBOOK_PAGE_ID = os.getenv("FACEBOOK_PAGE_ID")
-FACEBOOK_ACCESS_TOKEN = os.getenv("FACEBOOK_ACCESS_TOKEN")
+XAI_API_KEY = os.getenv("xai-IWAr5f5NCcZZq5b97Bvp2Tmv7emMlH18WZF7E2cXXmdQ3Wr3wak7XsDUtDzGqtWZqr9P7fP6zta29hTT
+")
+FACEBOOK_PAGE_ID = os.getenv("remenyhope2026")
+FACEBOOK_ACCESS_TOKEN = os.getenv("EAAKLM4j9TloBR0KNl8M1SVawvuBbbUMw584G0HdteuPIsrhZCpshjUVUaHKCfM5sbA6PAP8wSZBssTRA8jbn0R4jZA1BEgsWZC9T5XO8MECBqZCdwTnHMhvKOIdAZCtY0rmuET6DqzX1bGcZCcmRnLxLMvDF0T6zfD0BhB6L9ZAZAPYl2ixa3YiR6SPJqNRBWz2ZC8b4sFDfJjTEbOz3GCHOwjVwZCoXMR8qCnY1QNpMAZDZD")
 XAI_MODEL = "grok-3"
 FB_API_VERSION = "v21.0"
 SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
