@@ -13,7 +13,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv("XAI_API_KEY"), base_url="https://api.x.ai/v1")
+client = OpenAI(api_key=os.getenv("xai-IWAr5f5NCcZZq5b97Bvp2Tmv7emMlH18WZF7E2cXXmdQ3Wr3wak7XsDUtDzGqtWZqr9P7fP6zta29hTT"), base_url="https://api.x.ai/v1")
 WORKDIR = Path("/home/workdir/artifacts")
 WAV2LIP_DIR = Path("/path/to/Wav2Lip")
 CHECKPOINT = WAV2LIP_DIR / "checkpoints" / "wav2lip_gan.pth"
