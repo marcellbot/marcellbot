@@ -2,7 +2,7 @@
 import requests
 
 # IDE ÍRD BE A SAJÁT ADATAIDAT:
-PAGE_ID = 'martavalentinyifacebook' # pl. 123456789012345
+PAGE_ID = 'remenyhope2026' # pl. 123456789012345
 ACCESS_TOKEN = 'YOUR_LONG_LIVED_PAGE_ACCESS_TOKEN'  # Hosszú életű token!
 
 def post_to_facebook(message, link=None, image_url=None):
