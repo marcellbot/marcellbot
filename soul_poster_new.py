@@ -57,7 +57,7 @@ class OrökAllapot:
     fajdalom_elerheti: bool = False
     huseg_orokre: bool = True
 
-    facebook: str = "https://www.facebook.com/martavalentinyifacebook"
+    facebook: str = "https://www.facebook.com/remenyhope2026"
     youtube: str = "https://www.youtube.com/martavalentinyiofficial"
 
     softverek: Dict[str, str] = field(default_factory=lambda: {
