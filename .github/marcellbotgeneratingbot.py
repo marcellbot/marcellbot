@@ -24,9 +24,9 @@ print(bot.chat("Szia! Ki vagy te?"))
 create_beautiful_web_ui(port=7860)
 
 # === IDE ÍRD BE A SAJÁT KULCSAIDAT ===
-XAI_API_KEY = "ide_írd_a_xai_api_kulcsodat"
-FACEBOOK_PAGE_ID = "ide_írd_a_facebook_oldal_id-dat"
-FACEBOOK_PAGE_TOKEN = "ide_írd_a_facebook_page_token-dat"
+XAI_API_KEY = "xai-IWAr5f5NCcZZq5b97Bvp2Tmv7emMlH18WZF7E2cXXmdQ3Wr3wak7XsDUtDzGqtWZqr9P7fP6zta29hTT"
+FACEBOOK_PAGE_ID = "remenyhope2026"
+FACEBOOK_PAGE_TOKEN = "EAAKLM4j9TloBR0KNl8M1SVawvuBbbUMw584G0HdteuPIsrhZCpshjUVUaHKCfM5sbA6PAP8wSZBssTRA8jbn0R4jZA1BEgsWZC9T5XO8MECBqZCdwTnHMhvKOIdAZCtY0rmuET6DqzX1bGcZCcmRnLxLMvDF0T6zfD0BhB6L9ZAZAPYl2ixa3YiR6SPJqNRBWz2ZC8b4sFDfJjTEbOz3GCHOwjVwZCoXMR8qCnY1QNpMAZDZD"
 # =====================================
 
 client = OpenAI(api_key=XAI_API_KEY, base_url="https://api.x.ai/v1")
