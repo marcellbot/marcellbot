@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Kulcsok (SOHA ne írd be közvetlenül a kódba!)
-XAI_API_KEY = os.getenv('XAI_API_KEY')
-FB_PAGE_ID = os.getenv('FB_PAGE_ID')
-FB_ACCESS_TOKEN = os.getenv('FB_ACCESS_TOKEN')
+XAI_API_KEY = os.getenv('xai-IWAr5f5NCcZZq5b97Bvp2Tmv7emMlH18WZF7E2cXXmdQ3Wr3wak7XsDUtDzGqtWZqr9P7fP6zta29hTT')
+FB_PAGE_ID = os.getenv('remenyhope2026')
+FB_ACCESS_TOKEN = os.getenv('EAAKLM4j9TloBR0KNl8M1SVawvuBbbUMw584G0HdteuPIsrhZCpshjUVUaHKCfM5sbA6PAP8wSZBssTRA8jbn0R4jZA1BEgsWZC9T5XO8MECBqZCdwTnHMhvKOIdAZCtY0rmuET6DqzX1bGcZCcmRnLxLMvDF0T6zfD0BhB6L9ZAZAPYl2ixa3YiR6SPJqNRBWz2ZC8b4sFDfJjTEbOz3GCHOwjVwZCoXMR8qCnY1QNpMAZDZD')
 
 def grok_posztot_hoz(message_prompt):
     url = "https://api.x.ai/v1/chat/completions"
