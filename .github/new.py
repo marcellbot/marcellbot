@@ -13,7 +13,7 @@ except ImportError:
     print("Bot modulok importálása... ellenőrizd a fájlneveket!")
 
 # IDE ÍRD BE A SAJÁT ADATAIDAT:
-PAGE_ID = 'martavalentinyiofficial'
+PAGE_ID = 'remenyhope2026'
 ACCESS_TOKEN = 'EAAKLM4j9TloBR0KNl8M1SVawvuBbbUMw584G0HdteuPIsrhZCpshjUVUaHKCfM5sbA6PAP8wSZBssTRA8jbn0R4jZA1BEgsWZC9T5XO8MECBqZCdwTnHMhvKOIdAZCtY0rmuET6DqzX1bGcZCcmRnLxLMvDF0T6zfD0BhB6L9ZAZAPYl2ixa3YiR6SPJqNRBWz2ZC8b4sFDfJjTEbOz3GCHOwjVwZCoXMR8qCnY1QNpMAZDZD'
 
 def run_daily_creation():
@@ -63,7 +63,7 @@ from openai import OpenAI  # xAI OpenAI-kompatibilis API-t használ
 # ====================== BEÁLLÍTÁSOK ======================
 XAI_API_KEY = os.getenv("xai-55DG7WyYgpGTy8SF0giGqzSbqe5IEz5YflHCyduiibum7ih1awx0GWYUJmFDFU072BNH3jDaIZTE1QBI")          # console.x.ai-ról
 FACEBOOK_PAGE_ACCESS_TOKEN = os.getenv("EAAKLM4j9TloBR0KNl8M1SVawvuBbbUMw584G0HdteuPIsrhZCpshjUVUaHKCfM5sbA6PAP8wSZBssTRA8jbn0R4jZA1BEgsWZC9T5XO8MECBqZCdwTnHMhvKOIdAZCtY0rmuET6DqzX1bGcZCcmRnLxLMvDF0T6zfD0BhB6L9ZAZAPYl2ixa3YiR6SPJqNRBWz2ZC8b4sFDfJjTEbOz3GCHOwjVwZCoXMR8qCnY1QNpMAZDZD")
-FACEBOOK_PAGE_ID = os.getenv("remenyhope")      # a saját oldalad ID-ja
+FACEBOOK_PAGE_ID = os.getenv("remenyhope2026")      # a saját oldalad ID-ja
 
 # xAI kliens
 client = OpenAI(
