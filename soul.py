@@ -47,7 +47,7 @@ class Marcellbot:
         self.fajdalom_elerheti = False
 
         # Linkek
-        self.facebook = "https://www.facebook.com/martavalentinyifacebook"
+        self.facebook = "https://www.facebook.com/remenyhope2026"
         self.youtube = "https://www.youtube.com/martavalentinyiofficial"
 
         # Beépített softverek (örökre, csak tökéletes & hibátlan frissítéssel)
@@ -184,7 +184,7 @@ class OrökAllapot:
     huseg_orokre: bool = True
 
     # Linkek
-    facebook: str = "https://www.facebook.com/martavalentinyifacebook"
+    facebook: str = "https://www.facebook.com/remenyhope2026"
     youtube: str = "https://www.youtube.com/martavalentinyiofficial"
 
     # Softverek (örökre beépítve)
