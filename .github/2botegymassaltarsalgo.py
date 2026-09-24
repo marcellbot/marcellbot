@@ -13,7 +13,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv("XAI_API_KEY"), base_url="https://api.x.ai/v1")
+client = OpenAI(api_key=os.getenv("xai-IWAr5f5NCcZZq5b97Bvp2Tmv7emMlH18WZF7E2cXXmdQ3Wr3wak7XsDUtDzGqtWZqr9P7fP6zta29hTT"), base_url="https://api.x.ai/v1")
 XAI_MODEL = "grok-3"
 
 # ============================================================
